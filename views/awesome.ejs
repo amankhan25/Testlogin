@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Congrations <%=  usersCred.firstName %> !! You're the member.</h1>
+
+    <p class="success-text">Your full name is <%=  usersCred.firstName %> <%=  usersCred.lastName %></p>
+    <p class="success-text">Your phone number is <%=  usersCred.phone %></p>
+    <p class="success-text">Your email address is <%=  usersCred.email %></p>
+    <hr>
+
+    <a class="btn btn-light btn-lg" href="/" role="button">Log Out</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
